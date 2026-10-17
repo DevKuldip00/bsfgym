@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BSF THE GYM | Fitness &amp; Training</title>
+  
+  <!-- SEO & Open Graph Meta Tags -->
+  <meta name="description" content="Experience high-performance strength training, curved runners, and dedicated lifting platforms at BSF THE GYM in New Alkapuri, Vadodara. Built by discipline.">
+  <meta name="keywords" content="BSF THE GYM, Gym in Vadodara, Fitness Center New Alkapuri, Strength Training, Personal Training, Cardio, Weightlifting Vadodara">
+  <meta property="og:title" content="BSF THE GYM | Built By Discipline">
+  <meta property="og:description" content="Vadodara's premier fitness destination. Heavy iron, high-performance equipment, and an uncompromising training atmosphere.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="/images/strength-zone.jpg">
+  <meta name="theme-color" content="#050605">
+
+  <!-- Google Fonts: Bebas Neue (Athletic Display) + Space Grotesk (Modern Tech/Subheadings) + Inter (Crisp Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+
+  <!-- Subtle Cinematic Film Grain Overlay -->
+  <div class="film-grain-overlay" aria-hidden="true"></div>
+
+  <!-- Ambient Light Orbs -->
+  <div class="ambient-glow-orb glow-top-left" aria-hidden="true"></div>
+  <div class="ambient-glow-orb glow-bottom-right" aria-hidden="true"></div>
+
+  <!-- Refined Floating Navigation Header (No browser-like strip) -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-container">
+      
+      <!-- Brand Wordmark & Accent -->
+      <a href="#hero" class="brand-logo" aria-label="BSF THE GYM Home">
+        <span class="logo-accent-mark"></span>
+        <span class="logo-text">
+          <span class="logo-bold">BSF</span>
+          <span class="logo-light">THE GYM</span>
+        </span>
+        <span class="logo-tag">EST. VADODARA</span>
+      </a>
+
+      <!-- Center Desktop Navigation -->
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#facilities" class="nav-link">Facilities</a></li>
+          <li><a href="#membership" class="nav-link">Membership</a></li>
+          <li><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Right Header Actions -->
+      <div class="header-actions">
+        <a href="#contact" class="btn btn-lime-header desktop-only">
+          <span>ENQUIRE NOW</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button type="button" class="mobile-toggle" id="mobileMenuBtn" aria-expanded="false" aria-controls="mobileDrawer" aria-label="Toggle navigation menu">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+    <div class="drawer-backdrop" id="drawerBackdrop"></div>
+    <div class="drawer-content">
+      <div class="drawer-header">
+        <div class="drawer-brand">
+          <span class="logo-accent-mark"></span>
+          <span class="logo-text">
+            <span class="logo-bold">BSF</span>
+            <span class="logo-light">THE GYM</span>
+          </span>
+        </div>
+        <button type="button" class="drawer-close" id="drawerCloseBtn" aria-label="Close menu">&times;</button>
+      </div>
+      
+      <nav class="drawer-nav">
+        <ul class="drawer-links">
+          <li><a href="#hero" class="drawer-link">Home</a></li>
+          <li><a href="#about" class="drawer-link">About The Gym</a></li>
+          <li><a href="#facilities" class="drawer-link">Facilities &amp; Gear</a></li>
+          <li><a href="#membership" class="drawer-link">Membership Tiers</a></li>
+          <li><a href="#gallery" class="drawer-link">Facility Gallery</a></li>
+          <li><a href="#contact" class="drawer-link">Location &amp; Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="drawer-footer">
+        <a href="#contact" class="btn btn-lime w-100 drawer-action-btn">
+          <span>ENQUIRE NOW</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <div class="drawer-contact-info">
+          <p><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg> +91 63551 48429</p>
+          <p class="drawer-hours-badge">Mon–Sat: Closes 10:30 PM</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main id="main-content">
+    
+    <!-- 1. HERO SECTION — CINEMATIC 3D FITNESS EXPERIENCE -->
+    <section class="hero-section" id="hero">
+      
+      <!-- Layer 1: Real Gym Photography with Atmospheric Gradient -->
+      <div class="hero-media-wrapper">
+        <img 
+          src="/images/strength-zone.jpg" 
+          alt="BSF THE GYM heavy strength training zone, power racks, barbells and lifting platform in Vadodara" 
+          class="hero-bg-photo"
+          fetchpriority="high"
+        />
+        <div class="hero-vignette-overlay"></div>
+        <div class="hero-directional-lighting"></div>
+      </div>
+
+      <!-- Layer 2: Interactive 3D Three.js Sculptural Fitness Emblem -->
+      <div class="hero-3d-wrapper" id="hero3dContainer" aria-hidden="true"></div>
+
+      <!-- Layer 3: Foreground Typography & Hero Composition -->
+      <div class="container hero-content-container">
+        
+        <!-- Editorial Badge -->
+        <div class="hero-editorial-badge">
+          <span class="badge-pulse-indicator"></span>
+          <span class="badge-text">VADODARA • FITNESS • PERFORMANCE</span>
+        </div>
+
+        <!-- Dimensional 3D Sculptural Headline -->
+        <h1 class="hero-dimensional-headline">
+          <span class="hero-word-row">
+            <span class="hero-word hero-word-white">BUILT</span>
+            <span class="hero-word hero-word-white">BY</span>
+          </span>
+          <span class="hero-word-row">
+            <span class="hero-word hero-word-lime">DISCIPLINE.</span>
+          </span>
+        </h1>
+
+        <!-- Supporting & Secondary Copy -->
+        <p class="hero-primary-subtext">
+          Train harder. Get stronger. Become your best.
+        </p>
+
+        <p class="hero-secondary-subtext">
+          Experience a focused training environment built around strength, consistency, and progress in New Alkapuri, Vadodara.
+        </p>
+
+        <!-- High-Impact CTA Buttons -->
+        <div class="hero-cta-group">
+          <a href="#membership" class="btn btn-lime btn-glow">
+            <span>EXPLORE MEMBERSHIPS</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" class="btn-arrow"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="#facilities" class="btn btn-glass">
+            <span>DISCOVER THE GYM</span>
+          </a>
+        </div>
+
+        <!-- Verified Amenities Strip -->
+        <div class="hero-amenities-strip">
+          <div class="amenity-item">
+            <span class="amenity-highlight">HEAVY IRON</span>
+            <span class="amenity-label">Power Racks &amp; Deadlift Zone</span>
+          </div>
+          <div class="amenity-sep"></div>
+          <div class="amenity-item">
+            <span class="amenity-highlight">PRO CARDIO</span>
+            <span class="amenity-label">Curved Runners &amp; Stairmasters</span>
+          </div>
+          <div class="amenity-sep"></div>
+          <div class="amenity-item">
+            <span class="amenity-highlight">UNTIL 10:30 PM</span>
+            <span class="amenity-label">Evening Training Standards</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Vertical Scroll Indicator -->
+      <a href="#about" class="hero-scroll-indicator" aria-label="Scroll to about section">
+        <span class="scroll-track">
+          <span class="scroll-ball"></span>
+        </span>
+        <span class="scroll-text">SCROLL</span>
+      </a>
+
+    </section>
+
+    <!-- 2. ABOUT THE GYM — EDITORIAL FITNESS STORY -->
+    <section class="about-section section-padding" id="about">
+      <div class="container">
+        <div class="about-editorial-grid">
+          
+          <!-- Image Column with 3D Tilt Frame -->
+          <div class="about-visual-col scroll-reveal">
+            <div class="visual-3d-card card-tilt">
+              <img 
+                src="/images/cardio-zone.png" 
+                alt="BSF THE GYM high-end cardio zone with treadmills and motivational wall artwork" 
+                class="about-img"
+                loading="lazy"
+              />
+              <div class="visual-badge">
+                <span class="badge-num">01</span>
+                <span class="badge-title">COMMITTED TO EXCELLENCE</span>
+              </div>
+              <div class="card-specular-glare"></div>
+            </div>
+            
+            <div class="visual-accent-box">
+              <span class="quote-text">“YOUR BODY HEARS EVERYTHING YOUR MIND SAYS.”</span>
+              <span class="quote-author">— BSF GYM FLOOR MURAL</span>
+            </div>
+          </div>
+
+          <!-- Editorial Copy Column -->
+          <div class="about-copy-col scroll-reveal">
+            <div class="section-tag">
+              <span class="tag-line"></span>
+              <span>ABOUT BSF THE GYM</span>
+            </div>
+
+            <h2 class="section-title">
+              MORE THAN<br>
+              <span class="text-lime">A WORKOUT.</span>
+            </h2>
+
+            <p class="lead-paragraph">
+              At <strong>BSF THE GYM</strong>, fitness is not an occasional hobby—it is a daily standard of discipline, strength, and personal pride. Located in New Alkapuri, Vadodara, our facility is engineered for individuals who respect their physical potential.
+            </p>
+
+            <p class="secondary-paragraph">
+              Whether stepping up to calibrated Olympic barbells, hitting high-intensity sprints on non-motorized curved runners, or building sustainable lifelong conditioning, you train in an energizing environment built around real progress.
+            </p>
+
+            <!-- Three Design-Led Values: Discipline, Strength, Consistency -->
+            <div class="values-list">
+              
+              <div class="value-item card-tilt">
+                <div class="value-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                </div>
+                <div class="value-text">
+                  <h3 class="value-title">DISCIPLINE</h3>
+                  <p class="value-desc">Consistency over temporary motivation. The habit of showing up and executing when nobody is watching.</p>
+                </div>
+                <div class="card-specular-glare"></div>
+              </div>
+
+              <div class="value-item card-tilt">
+                <div class="value-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6.5 6.5 11 11M3 21l3-3M21 3l-3 3M14.5 9.5l3-3M6.5 17.5l3-3"/></svg>
+                </div>
+                <div class="value-text">
+                  <h3 class="value-title">STRENGTH</h3>
+                  <p class="value-desc">Calibrated iron, heavy-duty power cages, and dedicated deadlift platforms built for safe progressive overload.</p>
+                </div>
+                <div class="card-specular-glare"></div>
+              </div>
+
+              <div class="value-item card-tilt">
+                <div class="value-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                </div>
+                <div class="value-text">
+                  <h3 class="value-title">CONSISTENCY</h3>
+                  <p class="value-desc">Sustainable daily habits, proper recovery, and a focused atmosphere that turns routine into measurable results.</p>
+                </div>
+                <div class="card-specular-glare"></div>
+              </div>
+
+            </div>
+
+            <div class="about-actions">
+              <a href="#facilities" class="btn btn-outline-lime">
+                <span>OUR APPROACH &amp; SPACES</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. FACILITIES & TRAINING — IMAGE-LED DESIGN -->
+    <section class="facilities-section section-padding" id="facilities">
+      <div class="container">
+        
+        <div class="section-header-centered scroll-reveal">
+          <div class="section-tag center-tag">
+            <span class="tag-line"></span>
+            <span>VERIFIED EQUIPMENT &amp; ZONES</span>
+            <span class="tag-line"></span>
+          </div>
+          <h2 class="section-title">
+            YOUR TRAINING.<br>
+            <span class="text-lime">YOUR STANDARD.</span>
+          </h2>
+          <p class="section-subtext">
+            Authentic equipment selected for optimal biomechanics, maximum safety, and measurable strength development.
+          </p>
+        </div>
+
+        <div class="facilities-grid">
+
+          <!-- Facility Card 1: Strength & Free Weights -->
+          <article class="facility-card card-tilt scroll-reveal">
+            <div class="card-media">
+              <img 
+                src="/images/strength-zone.jpg" 
+                alt="BSF THE GYM Olympic barbell, power cage, Evost plates and bench press setup" 
+                class="card-img"
+                loading="lazy"
+              />
+              <div class="card-category">STRENGTH TRAINING</div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Heavy Iron &amp; Power Racks</h3>
+              <p class="card-text">
+                Heavy-duty commercial power cages, Olympic barbells, adjustable incline/flat benches, and precision Evost weight plates for deadlifts, squats, and presses.
+              </p>
+              <ul class="feature-bullets">
+                <li><span class="check-icon">✓</span> Multi-grip pull-up bars &amp; safety spotter arms</li>
+                <li><span class="check-icon">✓</span> Shock-absorbing rubberized deadlift platform</li>
+                <li><span class="check-icon">✓</span> Calibrated bumper plates &amp; Olympic barbell sets</li>
+              </ul>
+            </div>
+            <div class="card-specular-glare"></div>
+          </article>
+
+          <!-- Facility Card 2: Advanced Cardio Zone -->
+          <article class="facility-card card-tilt scroll-reveal">
+            <div class="card-media">
+              <img 
+                src="/images/cardio-zone.png" 
+                alt="BSF THE GYM motor and curved running treadmills, stairmaster and cycle trainers" 
+                class="card-img"
+                loading="lazy"
+              />
+              <div class="card-category">CARDIO &amp; CONDITIONING</div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Advanced Cardio Deck</h3>
+              <p class="card-text">
+                Complete cardiovascular conditioning featuring curved manual treadmills for authentic kinetic stride, commercial stair climbers, and stationary cycles.
+              </p>
+              <ul class="feature-bullets">
+                <li><span class="check-icon">✓</span> Curved non-motorized running platforms</li>
+                <li><span class="check-icon">✓</span> Commercial stairmasters &amp; elliptical trainers</li>
+                <li><span class="check-icon">✓</span> Ambient lighting &amp; motivational workout environment</li>
+              </ul>
+            </div>
+            <div class="card-specular-glare"></div>
+          </article>
+
+          <!-- Facility Card 3: Welcome Lounge & Reception -->
+          <article class="facility-card card-tilt scroll-reveal">
+            <div class="card-media">
+              <img 
+                src="/images/reception-lounge.png" 
+                alt="BSF THE GYM reception desk, member lounge sofa and consultation entry" 
+                class="card-img"
+                loading="lazy"
+              />
+              <div class="card-category">LOUNGE &amp; RECOVERY</div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Member Lounge &amp; Check-In</h3>
+              <p class="card-text">
+                Comfortable modern lounge with dedicated consultation desk, comfortable seating, hydration station, and direct glass view onto the main training floor.
+              </p>
+              <ul class="feature-bullets">
+                <li><span class="check-icon">✓</span> Fast member check-in &amp; desk support</li>
+                <li><span class="check-icon">✓</span> Clean, air-conditioned member seating</li>
+                <li><span class="check-icon">✓</span> Pre &amp; post-workout consultation area</li>
+              </ul>
+            </div>
+            <div class="card-specular-glare"></div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 4. MEMBERSHIP SECTION — HONEST & TRANSPARENT -->
+    <section class="membership-section section-padding" id="membership">
+      <div class="container">
+        
+        <div class="section-header-centered scroll-reveal">
+          <div class="section-tag center-tag">
+            <span class="tag-line"></span>
+            <span>MEMBERSHIP OPTIONS</span>
+            <span class="tag-line"></span>
+          </div>
+          <h2 class="section-title">
+            FLEXIBLE PLANS.<br>
+            <span class="text-lime">ZERO COMPROMISES.</span>
+          </h2>
+          <p class="section-subtext">
+            Transparent access tiers designed for every training goal. Contact our desk directly for current season pricing and schedules.
+          </p>
+        </div>
+
+        <div class="pricing-grid">
+
+          <!-- Tier 1: Monthly -->
+          <div class="pricing-card card-tilt scroll-reveal" data-tier="Monthly Membership">
+            <div class="pricing-header">
+              <span class="tier-type">FLEXIBLE STARTER</span>
+              <h3 class="tier-name">Monthly Membership</h3>
+              <div class="pricing-price-box">
+                <span class="price-notice">Contact for pricing</span>
+                <span class="price-sub">Billed monthly • No long-term lock-in</span>
+              </div>
+            </div>
+
+            <div class="pricing-divider"></div>
+
+            <ul class="pricing-features">
+              <li><span class="check-icon">✓</span> Full access to strength &amp; cardio floors</li>
+              <li><span class="check-icon">✓</span> 6-day access (until 10:30 PM Mon–Sat)</li>
+              <li><span class="check-icon">✓</span> Clean locker and change room facilities</li>
+              <li><span class="check-icon">✓</span> General gym floor trainer guidance</li>
+              <li><span class="check-icon">✓</span> Free hydration &amp; member lounge access</li>
+            </ul>
+
+            <button type="button" class="btn btn-outline w-100 tier-enquire-btn" data-plan="Monthly Membership">
+              <span>ENQUIRE NOW</span>
+            </button>
+            <div class="card-specular-glare"></div>
+          </div>
+
+          <!-- Tier 2: Quarterly -->
+          <div class="pricing-card featured-pricing-card card-tilt scroll-reveal" data-tier="Quarterly Membership">
+            <div class="featured-badge">COMMITMENT CYCLE</div>
+            <div class="pricing-header">
+              <span class="tier-type">PROGRESS FOCUSED</span>
+              <h3 class="tier-name">Quarterly Membership</h3>
+              <div class="pricing-price-box">
+                <span class="price-notice">Contact for pricing</span>
+                <span class="price-sub">3-Month focused transformation cycle</span>
+              </div>
+            </div>
+
+            <div class="pricing-divider"></div>
+
+            <ul class="pricing-features">
+              <li><span class="check-icon">✓</span> <strong>Everything in Monthly Membership</strong></li>
+              <li><span class="check-icon">✓</span> Initial fitness assessment &amp; goal setting</li>
+              <li><span class="check-icon">✓</span> Periodic body composition check-ins</li>
+              <li><span class="check-icon">✓</span> Priority peak-hour floor access</li>
+              <li><span class="check-icon">✓</span> Personalized workout routine guidance</li>
+            </ul>
+
+            <button type="button" class="btn btn-lime w-100 tier-enquire-btn" data-plan="Quarterly Membership">
+              <span>ENQUIRE NOW</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+            <div class="card-specular-glare"></div>
+          </div>
+
+          <!-- Tier 3: Annual -->
+          <div class="pricing-card card-tilt scroll-reveal" data-tier="Annual Membership">
+            <div class="pricing-header">
+              <span class="tier-type">LONG-TERM COMMITMENT</span>
+              <h3 class="tier-name">Annual Membership</h3>
+              <div class="pricing-price-box">
+                <span class="price-notice">Contact for pricing</span>
+                <span class="price-sub">365 Days of disciplined consistency</span>
+              </div>
+            </div>
+
+            <div class="pricing-divider"></div>
+
+            <ul class="pricing-features">
+              <li><span class="check-icon">✓</span> <strong>All Quarterly privileges included</strong></li>
+              <li><span class="check-icon">✓</span> Best value per month rate in New Alkapuri</li>
+              <li><span class="check-icon">✓</span> Membership pause option during travel</li>
+              <li><span class="check-icon">✓</span> Complimentary guest passes per quarter</li>
+              <li><span class="check-icon">✓</span> Dedicated personal progress tracking</li>
+            </ul>
+
+            <button type="button" class="btn btn-outline w-100 tier-enquire-btn" data-plan="Annual Membership">
+              <span>ENQUIRE NOW</span>
+            </button>
+            <div class="card-specular-glare"></div>
+          </div>
+
+        </div>
+
+        <div class="pricing-footnote scroll-reveal">
+          <p>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+            Official plans are configured at our reception desk. Speak directly with our team to find the right schedule for your lifestyle.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 5. ETHOS & TRAINING STANDARDS -->
+    <section class="culture-section section-padding">
+      <div class="container">
+        <div class="culture-card scroll-reveal">
+          <div class="culture-content">
+            <div class="section-tag">
+              <span class="tag-line"></span>
+              <span>THE BSF ETHOS</span>
+            </div>
+            <h2 class="culture-heading">NO EXCUSES.<br><span class="text-lime">JUST PROGRESS.</span></h2>
+            <p class="culture-lead">
+              We believe a gym is only as good as the energy inside it. At <strong>BSF THE GYM</strong>, you won’t find crowded gimmicks or ego lifting. We maintain clean equipment, respectful floor etiquette, and a community dedicated to real physical transformation.
+            </p>
+            <div class="culture-metrics">
+              <div class="metric-box">
+                <span class="metric-title">CLEAN &amp; SPACIOUS</span>
+                <span class="metric-desc">Sanitized zones, organized free-weight racks</span>
+              </div>
+              <div class="metric-box">
+                <span class="metric-title">EXPERIENCED COACHING</span>
+                <span class="metric-desc">Biomechanical cues &amp; injury prevention</span>
+              </div>
+              <div class="metric-box">
+                <span class="metric-title">FOCUSED ATMOSPHERE</span>
+                <span class="metric-desc">Ambient lighting &amp; high-energy training soundtrack</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. GALLERY (INTERACTIVE LIGHTBOX) -->
+    <section class="gallery-section section-padding" id="gallery">
+      <div class="container">
+        
+        <div class="gallery-header-row scroll-reveal">
+          <div>
+            <div class="section-tag">
+              <span class="tag-line"></span>
+              <span>FACILITY PREVIEWS</span>
+            </div>
+            <h2 class="section-title">
+              INSIDE<br>
+              <span class="text-lime">BSF THE GYM.</span>
+            </h2>
+          </div>
+          <p class="gallery-subtext">
+            Actual photos from our New Alkapuri facility. Click any photograph to view in high definition.
+          </p>
+        </div>
+
+        <div class="gallery-mosaic">
+          
+          <!-- Gallery Item 1: Wide Strength Zone -->
+          <figure class="gallery-item item-large scroll-reveal" data-src="/images/strength-zone.jpg" data-caption="BSF THE GYM Strength Training Floor — Calibrated Power Rack, Bench &amp; Barbell Platforms">
+            <img 
+              src="/images/strength-zone.jpg" 
+              alt="BSF THE GYM Strength zone with power rack, barbell, bench and spin bikes" 
+              class="gallery-thumb"
+              loading="lazy"
+            />
+            <div class="gallery-overlay">
+              <div class="gallery-info">
+                <span class="gallery-tag">STRENGTH ZONE</span>
+                <span class="gallery-title">Power Cages &amp; Olympic Platform</span>
+              </div>
+              <span class="gallery-zoom-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+              </span>
+            </div>
+          </figure>
+
+          <!-- Gallery Item 2: Cardio Zone -->
+          <figure class="gallery-item item-tall scroll-reveal" data-src="/images/cardio-zone.png" data-caption="BSF THE GYM Cardio &amp; Conditioning Deck — Commercial Treadmills, Curved Runners &amp; Stair Climber">
+            <img 
+              src="/images/cardio-zone.png" 
+              alt="BSF THE GYM Cardio zone with treadmills and motivational neon wall mural" 
+              class="gallery-thumb"
+              loading="lazy"
+            />
+            <div class="gallery-overlay">
+              <div class="gallery-info">
+                <span class="gallery-tag">CARDIO DECK</span>
+                <span class="gallery-title">High-Intensity Treadmills &amp; Climber</span>
+              </div>
+              <span class="gallery-zoom-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+              </span>
+            </div>
+          </figure>
+
+          <!-- Gallery Item 3: Reception Lounge -->
+          <figure class="gallery-item item-wide scroll-reveal" data-src="/images/reception-lounge.png" data-caption="BSF THE GYM Member Lounge &amp; Check-In Desk — Welcome Area with Comfortable Seating">
+            <img 
+              src="/images/reception-lounge.png" 
+              alt="BSF THE GYM reception desk with motivational wall, sofa lounge and glass view to gym" 
+              class="gallery-thumb"
+              loading="lazy"
+            />
+            <div class="gallery-overlay">
+              <div class="gallery-info">
+                <span class="gallery-tag">WELCOME LOUNGE</span>
+                <span class="gallery-title">Check-in Desk &amp; Member Seating</span>
+              </div>
+              <span class="gallery-zoom-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+              </span>
+            </div>
+          </figure>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 7. CONTACT, LOCATION & ENQUIRY -->
+    <section class="contact-section section-padding" id="contact">
+      <div class="container">
+        
+        <div class="contact-grid">
+
+          <!-- Contact Information & Quick Actions -->
+          <div class="contact-info-col scroll-reveal">
+            <div class="section-tag">
+              <span class="tag-line"></span>
+              <span>GET IN TOUCH</span>
+            </div>
+
+            <h2 class="section-title">
+              YOUR NEXT LEVEL<br>
+              <span class="text-lime">STARTS HERE.</span>
+            </h2>
+
+            <p class="contact-lead-text">
+              Drop by for a tour of our training floors, discuss your personal fitness roadmap with a trainer, or connect via WhatsApp for quick answers.
+            </p>
+
+            <!-- Three Working Actions: CALL, GET DIRECTIONS, WHATSAPP -->
+            <div class="contact-quick-actions">
+              <a href="tel:+916355148429" class="btn btn-lime action-btn">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                <span>CALL THE GYM</span>
+              </a>
+
+              <a href="https://www.google.com/maps/search/?api=1&query=BSF+THE+GYM+619-626+Red+Coral+Hamptons+Gotri-Sevasi+Road+New+Alkapuri+Vadodara+Gujarat+390021" target="_blank" rel="noopener noreferrer" class="btn btn-glass action-btn">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                <span>GET DIRECTIONS</span>
+              </a>
+
+              <a href="https://wa.me/916355148429?text=Hi%20BSF%20THE%20GYM%2C%20I%20would%20like%20to%20enquire%20about%20memberships%20and%20timings." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp-contact action-btn">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766 0-3.18-2.587-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.312.045-.694.06-2.023-.49-1.699-.702-2.784-2.434-2.868-2.547-.085-.114-.689-.916-.689-1.748 0-.832.433-1.24.588-1.408.155-.168.34-.21.453-.21.114 0 .227.002.327.007.106.005.248-.04.388.297.144.346.491 1.2.534 1.288.043.088.072.19.014.305-.058.115-.088.188-.174.288-.086.102-.18.227-.257.305-.086.087-.176.182-.076.354.101.172.448.74 0.963 1.198.662.59 1.22.774 1.393.86.172.086.273.072.374-.043.101-.116.433-.505.549-.678.114-.173.231-.144.389-.086.158.058 1.004.474 1.177.56.173.087.288.13.33.203.044.072.044.419-.1 1.024z"/></svg>
+                <span>WHATSAPP CHAT</span>
+              </a>
+            </div>
+
+            <!-- Details Cards -->
+            <div class="contact-detail-cards">
+              
+              <!-- Address Card -->
+              <div class="detail-card card-tilt">
+                <div class="detail-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                </div>
+                <div class="detail-content">
+                  <h3 class="detail-label">OFFICIAL ADDRESS</h3>
+                  <address class="detail-value">
+                    BSF THE GYM<br>
+                    619–626, Red Coral Hamptons,<br>
+                    Gotri–Sevasi Road, opposite Pizza Bell,<br>
+                    near Osia Mall, New Alkapuri, Laxmipura,<br>
+                    Vadodara, Gujarat 390021, India
+                  </address>
+                </div>
+                <div class="card-specular-glare"></div>
+              </div>
+
+              <!-- Operating Hours Card -->
+              <div class="detail-card card-tilt">
+                <div class="detail-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                </div>
+                <div class="detail-content">
+                  <h3 class="detail-label">OPERATING HOURS (EDITABLE)</h3>
+                  <div class="hours-schedule">
+                    <div class="schedule-row">
+                      <span class="day-col">Monday – Saturday</span>
+                      <span class="time-col">6:00 AM – 10:30 PM</span>
+                    </div>
+                    <div class="schedule-row">
+                      <span class="day-col">Sunday</span>
+                      <span class="time-col">7:00 AM – 1:00 PM (Morning)</span>
+                    </div>
+                    <div class="closing-badge">
+                      <span class="badge-dot-green"></span>
+                      <span>Evening Closing Time: 10:30 PM</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-specular-glare"></div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Interactive Client-side Validated Enquiry Form -->
+          <div class="contact-form-col scroll-reveal">
+            <div class="enquiry-card card-tilt">
+              <div class="enquiry-card-header">
+                <h3 class="enquiry-title">SEND AN ENQUIRY</h3>
+                <p class="enquiry-subtitle">Fill out the form below. We'll connect with verified membership options and schedule assistance.</p>
+              </div>
+
+              <form id="enquiryForm" class="enquiry-form" novalidate>
+                
+                <!-- Full Name -->
+                <div class="form-group">
+                  <label for="fullName" class="form-label">Full Name <span class="required">*</span></label>
+                  <input 
+                    type="text" 
+                    id="fullName" 
+                    name="fullName" 
+                    class="form-control" 
+                    placeholder="e.g. Rahul Sharma"
+                    required
+                    autocomplete="name"
+                  >
+                  <span class="form-error-msg" id="nameError">Please enter your full name.</span>
+                </div>
+
+                <!-- Phone / Email -->
+                <div class="form-group">
+                  <label for="phone" class="form-label">Phone or Email <span class="required">*</span></label>
+                  <input 
+                    type="text" 
+                    id="phone" 
+                    name="phone" 
+                    class="form-control" 
+                    placeholder="e.g. +91 98765 43210 or name@example.com"
+                    required
+                    autocomplete="tel"
+                  >
+                  <span class="form-error-msg" id="phoneError">Please enter a valid phone number or email address.</span>
+                </div>
+
+                <!-- Plan Interest -->
+                <div class="form-group">
+                  <label for="planInterest" class="form-label">Membership Tier Interest</label>
+                  <select id="planInterest" name="planInterest" class="form-control form-select">
+                    <option value="General Enquiry">General Gym Floor Enquiry</option>
+                    <option value="Monthly Membership">Monthly Membership</option>
+                    <option value="Quarterly Membership" selected>Quarterly Membership (3 Months)</option>
+                    <option value="Annual Membership">Annual Membership (12 Months)</option>
+                    <option value="Personal Training">Personal Training / Coaching</option>
+                  </select>
+                </div>
+
+                <!-- Message -->
+                <div class="form-group">
+                  <label for="message" class="form-label">Message / Training Goals <span class="form-optional">(Optional)</span></label>
+                  <textarea 
+                    id="message" 
+                    name="message" 
+                    rows="3" 
+                    class="form-control form-textarea" 
+                    placeholder="Tell us about your fitness background or specific training questions..."
+                  ></textarea>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="btn btn-lime w-100 btn-glow" id="submitEnquiryBtn">
+                  <span>SUBMIT ENQUIRY</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </button>
+
+                <p class="form-disclaimer">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+                  Client demo: Submissions generate an instant confirmation with an immediate direct WhatsApp dispatch option to +91 63551 48429.
+                </p>
+
+              </form>
+
+              <!-- Success Card State -->
+              <div class="enquiry-success-view" id="enquirySuccessView" style="display: none;">
+                <div class="success-icon-bubble">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#B7FF32" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                </div>
+                <h4 class="success-title">ENQUIRY PREPARED</h4>
+                <p class="success-text" id="successSummaryText">
+                  Thank you, <strong id="successCustomerName">Member</strong>! Your membership interest for <strong id="successTierName">Quarterly</strong> has been formatted.
+                </p>
+                
+                <div class="success-action-buttons">
+                  <a href="#" id="sendViaWhatsappBtn" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp w-100">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766 0-3.18-2.587-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.312.045-.694.06-2.023-.49-1.699-.702-2.784-2.434-2.868-2.547-.085-.114-.689-.916-.689-1.748 0-.832.433-1.24.588-1.408.155-.168.34-.21.453-.21.114 0 .227.002.327.007.106.005.248-.04.388.297.144.346.491 1.2.534 1.288.043.088.072.19.014.305-.058.115-.088.188-.174.288-.086.102-.18.227-.257.305-.086.087-.176.182-.076.354.101.172.448.74 0.963 1.198.662.59 1.22.774 1.393.86.172.086.273.072.374-.043.101-.116.433-.505.549-.678.114-.173.231-.144.389-.086.158.058 1.004.474 1.177.56.173.087.288.13.33.203.044.072.044.419-.1 1.024z"/></svg>
+                    <span>Send Directly via WhatsApp</span>
+                  </a>
+                  <button type="button" class="btn btn-glass w-100" id="resetEnquiryBtn">
+                    <span>Submit Another Enquiry</span>
+                  </button>
+                </div>
+              </div>
+
+              <div class="card-specular-glare"></div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      
+      <div class="footer-top-row">
+        <!-- Brand identity -->
+        <div class="footer-brand-col">
+          <a href="#hero" class="brand-logo footer-logo">
+            <span class="logo-accent-mark"></span>
+            <span class="logo-text">
+              <span class="logo-bold">BSF</span>
+              <span class="logo-light">THE GYM</span>
+            </span>
+          </a>
+          <p class="footer-tagline">
+            Built by discipline. High performance training facility in New Alkapuri, Vadodara.
+          </p>
+          <div class="footer-location-snip">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            <span>619–626, Red Coral Hamptons, Gotri–Sevasi Road, Vadodara</span>
+          </div>
+        </div>
+
+        <!-- Navigation Columns -->
+        <div class="footer-links-col">
+          <h4 class="footer-heading">NAVIGATION</h4>
+          <ul class="footer-links-list">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About BSF</a></li>
+            <li><a href="#facilities">Facilities &amp; Gear</a></li>
+            <li><a href="#membership">Membership Plans</a></li>
+            <li><a href="#gallery">Facility Gallery</a></li>
+            <li><a href="#contact">Location &amp; Hours</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-hours-col">
+          <h4 class="footer-heading">OPERATING HOURS</h4>
+          <p class="footer-hour-line"><strong>Monday – Saturday:</strong><br>6:00 AM – 10:30 PM</p>
+          <p class="footer-hour-line"><strong>Sunday:</strong><br>7:00 AM – 1:00 PM</p>
+          <p class="footer-phone-contact"><strong>Direct Desk:</strong> <a href="tel:+916355148429">+91 63551 48429</a></p>
+        </div>
+      </div>
+
+      <div class="footer-bottom-row">
+        <p class="footer-copy">
+          &copy; <span id="currentYear"></span> <strong>BSF THE GYM</strong>. All rights reserved. Built for champions.
+        </p>
+        <p class="footer-sub-note">
+          New Alkapuri, Vadodara, Gujarat 390021
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal for Facility Gallery -->
+  <dialog class="lightbox-modal" id="galleryLightbox" aria-label="Facility Image Lightbox">
+    <div class="lightbox-shell">
+      <button type="button" class="lightbox-close" id="lightboxCloseBtn" aria-label="Close image lightbox">&times;</button>
+      
+      <div class="lightbox-viewport">
+        <button type="button" class="lightbox-nav-btn prev-btn" id="lightboxPrevBtn" aria-label="Previous photograph">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"></polyline></svg>
+        </button>
+
+        <div class="lightbox-image-holder">
+          <img src="" alt="" id="lightboxActiveImg" class="lightbox-img">
+        </div>
+
+        <button type="button" class="lightbox-nav-btn next-btn" id="lightboxNextBtn" aria-label="Next photograph">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </button>
+      </div>
+
+      <div class="lightbox-meta">
+        <p class="lightbox-caption" id="lightboxCaption"></p>
+        <span class="lightbox-counter" id="lightboxCounter">1 / 3</span>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Modular Scripts -->
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
